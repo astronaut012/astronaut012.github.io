@@ -8,7 +8,7 @@ function changeBgColor()
     toggle = !toggle;
 
     if(toggle==1){
-    document.getElementById("body1").style.animation="change 14s infinite";
+    document.getElementById("body1").style.animation="change 10s infinite";
     clrBtn.textContent="Click to revert";
     }
     else{
