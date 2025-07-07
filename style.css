@@ -67,7 +67,7 @@ marquee:hover {
 
 @keyframes change {
   0% {
-    background-color: rgba(89, 215, 237, 0.973);
+    background-color: rgb(122, 209, 244);
   }
 
   25% {
@@ -75,7 +75,7 @@ marquee:hover {
   }
 
   50% {
-    background-color: rgb(60, 186, 236);
+    background-color: rgb(52, 191, 246);
   }
 
   75% {
@@ -83,6 +83,6 @@ marquee:hover {
   }
 
   100% {
-    background-color: rgba(89, 215, 237, 0.973);
+    background-color: rgb(122, 209, 244);
   }
 }
