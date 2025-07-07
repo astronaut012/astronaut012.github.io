@@ -1,9 +1,63 @@
 <!DOCTYPE html>
 <html>
-<body>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+</style>
+    <title>About Me</title>
+</head>
 
-</body>
+<body id="body1">
+
+    <h1>Shivani</h1>
+
+    <button id="color" style="float: right">Click to view this page with my favourite background!</button>
+    <br><br>
+    <h2 style="text-align: center;">Hello There!</h2>
+    <p>I am an undergraduate student living in India</p>
+    <p>Scroll to know more!</p>
+
+    <div class="banner" id="codingBanner" style="text-decoration: dashed">Coding <code>&lt;/&gt;</code> </div>
+    <p>Kode With Klossy Web Development Scholar, 2022 &lt;br&gt;</p>
+    <p>Kode With Klossy Data Science Scholar, 2024 &lt;br&gt;</p>
+    <p>Programming Languages (in decreasing order of proficiency):<large>
+            <large> C++, </large>
+        </large>
+        <large>C, </large><small>Java, <small>HTML, <small>
+                    CSS, JavaScript, <small>Assembly, Python</small></small></small></small>&lt;br&gt;
+    </p>
+    <p>I can code in more languages than I can speak! &lt;br&gt;    </p>
+
+    <div class="banner" style="text-decoration: dashed">Hobbies </div>
+    <center>
+        <p style="font-size: 50px;">
+            READING<br><small>READING<br><small>Reading<br><small>Reading<br><small>Reading<br><small>Reading<br><small>Reading</small></small></small></small></small></small></small>
+        </p>
+    </center>
+    <p>It's reading all the way</p>
+    <p>My favourite genre is science fiction</p>
+    <p>I love writing as well, expecially haiku</p>
+
+    <div class="banner">Random</div>
+    <marquee onmouseover="this.stop();" onmouseout="this.start();">
+        <p class="quoteBtn" id="quoteBtn" onclick="displayQuote();">Click for a book recommendation</p>
+    </marquee>
+        <center><p class="quote" id="replace"></p></center>
+    <ul>
+        <li>I love reading and writing inspirational quotes</li>
+        <li>I like making lists</li>
+    </ul>
+
+    <div id="fancy" style="text-align: center">
+        <i>I am passionate about many things, such as literature, coding and sports &#10024; &#x2728;</i>
+    </div>
+    <p id="hearts" style="color: goldenrod; font-size: 30px;">&hearts; &hearts; &hearts; &hearts; &hearts; &hearts;
+        &hearts; &hearts; &hearts; &hearts; &hearts; &hearts; &hearts;</p>
+
+<script src="script.js" defer></script>
+    </body>
+
 </html>
